@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LabSegundaParte.Entidades;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,31 +10,44 @@ namespace LabSegundaParte.Negocio
 {
     class ClsPersona
     {
-        public String person(persona Peso)
+        public String IMC(Persona peso)
+
         {
-            (double pro = per.Peso / Math.Pow(per.Altura, 2)
-            if (Peso <= 20)
+            peso.Peso = peso.Peso / Math.Pow(peso.Altura, 2);
+
+            if (peso.Peso <= 20)
             {
-                return ("Peso ideal ")
+                return ("Peso ideal "); 
 
             }
             else
             {
-                (Peso >= 25)
-                    return ("Tiene sobre peso")
+
+                return ("Tiene sobre peso");
             }
-            
 
-
-
-
-                
-              
 
         }
 
+        public String MayorDeEdad(Persona edad)
+       
+        {
+            if (edad.Edad >= 18)
+            {
+                return ("Es mayor de edad");
+
+            }
+            else
+            {
+
+                return ("Es menor de edad");
+            }
 
 
+        }
         
+
     }
+
+       
 }
