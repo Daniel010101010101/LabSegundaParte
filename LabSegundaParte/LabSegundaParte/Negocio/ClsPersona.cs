@@ -3,34 +3,37 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using LabSegundaParte;
+
 
 namespace LabSegundaParte.Negocio
 {
     class ClsPersona
     {
-
-        public double persona = new persona.Peso(); 
-
-
-
-        if (double pro = persona.Peso / Math.Pow(persona.Altura, 2))
+        public String person(persona Peso)
+        {
+            (double pro = per.Peso / Math.Pow(per.Altura, 2)
+            if (Peso <= 20)
             {
-               
-                return null;
+                return ("Peso ideal ")
+
             }
             else
             {
-                
-                producto = datos.buscarProductoPorID(producto);
+                (Peso >= 25)
+                    return ("Tiene sobre peso")
+            }
+            
+
+
+
 
                 
-                if (producto == null)
-                {
-                    return null;
-                }
-                
-                else
+              
 
+        }
+
+
+
+        
     }
 }
