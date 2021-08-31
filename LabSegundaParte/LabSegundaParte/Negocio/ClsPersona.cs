@@ -10,7 +10,7 @@ namespace LabSegundaParte.Negocio
 {
     class ClsPersona
     {
-<<<<<<< Updated upstream
+
         public String IMC(Persona peso)
 
         {
@@ -18,7 +18,7 @@ namespace LabSegundaParte.Negocio
 
             if (peso.Peso <= 20)
             {
-                return ("Peso ideal "); 
+                return ("Peso ideal ");
 
             }
             else
@@ -26,16 +26,14 @@ namespace LabSegundaParte.Negocio
 
                 return ("Tiene sobre peso");
             }
-=======
-        public string Person(Promedio Nota1)
-        public double persona = new persona.Peso(); 
->>>>>>> Stashed changes
+
+
 
 
         }
 
         public String MayorDeEdad(Persona edad)
-       
+
         {
             if (edad.Edad >= 18)
             {
@@ -50,7 +48,7 @@ namespace LabSegundaParte.Negocio
 
 
         }
-        
+
 
     }
 

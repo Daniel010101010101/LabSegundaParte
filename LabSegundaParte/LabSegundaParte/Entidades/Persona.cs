@@ -27,31 +27,32 @@ namespace LabSegundaParte.Entidades
 
         public Persona(string nombre, int edad, string sexo)
         {
-            this.nombre = nombre;
-            this.edad = edad;
-            this.sexo = sexo;
+            this.Nombre = nombre;
+            this.Edad = edad;
+            this.Sexo = sexo;
         }
 
         public Persona(string nombre, int edad, string sexo, double peso, double altura)
         {
-            this.nombre = nombre;
-            this.edad = edad;
-            this.sexo = sexo;
-            this.peso = peso;
-            this.altura = altura;
+            this.Nombre = nombre;
+            this.Edad = edad;
+            this.Sexo = sexo;
+            this.Peso = peso;
+            this.Altura = altura;
         }
 
         public Persona(double peso, double altura)
         {
-            this.peso = peso;
-            this.altura = altura;
+            this.Peso = peso;
+            this.Altura = altura;
         }
         public override string ToString()
         {
-            return "Nota primer periodo: " + periodo1 +
-                "\nNota segundo periodo: " + periodo2 +
-                "\nNota tercer periodo: " + periodo3 +
-                "\nResultado: " + nota;
+            return "Nombre: " + nombre +
+                "\nEdad: " + edad +
+                "\nPeso: " + peso +
+                "\nAltura: " + altura + 
+                "\nSexo: " + sexo;
         }
     }
 }
