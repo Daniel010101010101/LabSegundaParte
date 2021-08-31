@@ -30,6 +30,7 @@ namespace LabSegundaParte
             double altura = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Altura ingresado: " + altura.ToString("00.00"));
 
+            // Si por alguna razon le da error con el punto por favor utilice la coma, ya que nosotros lo tenemos con otra region 
 
             Persona persona = new Persona(nombre, edad, sexo, peso, altura);
             Persona persona1 = new Persona(nombre, edad, sexo);
