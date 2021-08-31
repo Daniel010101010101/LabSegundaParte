@@ -14,6 +14,7 @@ namespace LabSegundaParte.Entidades
         private String sexo;
         private double peso;
         private double altura;
+        private double pesoideal;
 
      
 
@@ -22,14 +23,16 @@ namespace LabSegundaParte.Entidades
         public string Sexo { get => sexo; set => sexo = value; }
         public double Peso { get => peso; set => peso = value; }
         public double Altura { get => altura; set => altura = value; }
+        
+        public double Pesoideal { get => pesoideal; set => pesoideal = value; }
 
         public Persona() { }
 
         public Persona(string nombre, int edad, string sexo)
         {
-            this.Nombre = nombre;
-            this.Edad = edad;
-            this.Sexo = sexo;
+            this.nombre = nombre;
+            this.edad = edad;
+            this.sexo = sexo;
         }
 
         public Persona(string nombre, int edad, string sexo, double peso, double altura)
@@ -46,13 +49,16 @@ namespace LabSegundaParte.Entidades
             this.Peso = peso;
             this.Altura = altura;
         }
+
+       
+
         public override string ToString()
         {
-            return "Nombre: " + nombre +
-                "\nEdad: " + edad +
-                "\nPeso: " + peso +
-                "\nAltura: " + altura + 
-                "\nSexo: " + sexo;
+            return "Nombre: " + Nombre +
+                "\nEdad: " + Edad +
+                "\nPeso: " + Peso +
+                "\nAltura: " + Altura + 
+                "\nSexo: " + Sexo;
         }
     }
 }

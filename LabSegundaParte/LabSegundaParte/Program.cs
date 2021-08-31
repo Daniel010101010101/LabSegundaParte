@@ -12,22 +12,31 @@ namespace LabSegundaParte
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ingrese su nombre ");
+            Console.WriteLine("Ingrese su nombre: ");
             String nombre = Console.ReadLine();
-            Console.WriteLine("Ingrese su edad ");
+
+
+            Console.WriteLine("Ingrese su edad: ");
             int edad = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Ingrese su peso ");
-            double peso = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Ingrese su altura ");
-            double altura = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Ingrese su sexo ");
+
+            Console.WriteLine("Ingrese su sexo: ");
             String sexo = Console.ReadLine();
-            Persona persona = new Persona(nombre, edad, sexo, altura, peso);
+
+            Console.WriteLine("Ingrese su peso: ");
+            double peso = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Peso ingresado: " + peso.ToString("000.00"));
+
+            Console.WriteLine("Ingrese su altura: ");
+            double altura = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Altura ingresado: " + altura.ToString("00.00"));
+
+
+            Persona persona = new Persona(nombre, edad, sexo, peso, altura);
             Persona persona1 = new Persona(nombre, edad, sexo);
 
             ClsPersona clsPersona = new ClsPersona();
             Console.WriteLine(clsPersona.IMC(persona));
-            Console.WriteLine(clsPersona.MayorDeEdad(persona));
+            Console.WriteLine(clsPersona.MayorDeEdad(persona1));
 
             Console.WriteLine(persona.ToString());
             Console.ReadLine();

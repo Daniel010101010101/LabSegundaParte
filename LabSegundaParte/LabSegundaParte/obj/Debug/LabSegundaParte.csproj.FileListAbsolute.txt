@@ -5,3 +5,10 @@ C:\Users\ASUS\Documents\GitHub\LabSegundaParte\LabSegundaParte\LabSegundaParte\o
 C:\Users\ASUS\Documents\GitHub\LabSegundaParte\LabSegundaParte\LabSegundaParte\obj\Debug\LabSegundaParte.csproj.CoreCompileInputs.cache
 C:\Users\ASUS\Documents\GitHub\LabSegundaParte\LabSegundaParte\LabSegundaParte\obj\Debug\LabSegundaParte.exe
 C:\Users\ASUS\Documents\GitHub\LabSegundaParte\LabSegundaParte\LabSegundaParte\obj\Debug\LabSegundaParte.pdb
+C:\Users\HP-Notebook\Documents\GitHub\LabSegundaParte\LabSegundaParte\LabSegundaParte\bin\Debug\LabSegundaParte.exe.config
+C:\Users\HP-Notebook\Documents\GitHub\LabSegundaParte\LabSegundaParte\LabSegundaParte\bin\Debug\LabSegundaParte.exe
+C:\Users\HP-Notebook\Documents\GitHub\LabSegundaParte\LabSegundaParte\LabSegundaParte\bin\Debug\LabSegundaParte.pdb
+C:\Users\HP-Notebook\Documents\GitHub\LabSegundaParte\LabSegundaParte\LabSegundaParte\obj\Debug\LabSegundaParte.csproj.AssemblyReference.cache
+C:\Users\HP-Notebook\Documents\GitHub\LabSegundaParte\LabSegundaParte\LabSegundaParte\obj\Debug\LabSegundaParte.csproj.CoreCompileInputs.cache
+C:\Users\HP-Notebook\Documents\GitHub\LabSegundaParte\LabSegundaParte\LabSegundaParte\obj\Debug\LabSegundaParte.exe
+C:\Users\HP-Notebook\Documents\GitHub\LabSegundaParte\LabSegundaParte\LabSegundaParte\obj\Debug\LabSegundaParte.pdb

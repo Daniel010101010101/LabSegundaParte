@@ -11,20 +11,26 @@ namespace LabSegundaParte.Negocio
     class ClsPersona
     {
 
-        public String IMC(Persona peso)
+        public String IMC(Persona persona)
 
         {
-            peso.Peso = peso.Peso / Math.Pow(peso.Altura, 2);
+            
+            double pesoideal = (persona.Peso) / (Math.Pow(persona.Altura, 2));
+            Console.WriteLine("Peso ingresado: " + persona.Peso);
+            Console.WriteLine("Altura ingresada: " + persona.Altura.ToString("00.00"));
+            Console.WriteLine(pesoideal);
+            
 
-            if (peso.Peso <= 20)
+
+            if (pesoideal < 20.00)
             {
-                return ("Peso ideal ");
+                return "Peso ideal ";
 
             }
             else
             {
 
-                return ("Tiene sobre peso");
+                return "Tiene sobre peso";
             }
 
 
@@ -37,13 +43,13 @@ namespace LabSegundaParte.Negocio
         {
             if (edad.Edad >= 18)
             {
-                return ("Es mayor de edad");
+                return "Es mayor de edad";
 
             }
             else
             {
 
-                return ("Es menor de edad");
+                return "Es menor de edad";
             }
 
 
